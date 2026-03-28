@@ -6,8 +6,6 @@ Sitemap: https://indiacodeinfotech.github.io/sitemap.xml
 
 # Disallow specific paths (if any)
 Disallow: /assets/vendor/
-Disallow: /assets/js/
-Disallow: /assets/css/
 
 # Crawl-delay
 Crawl-delay: 10

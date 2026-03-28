@@ -2196,11 +2196,10 @@ font-size: 20px;
 }
 
 .cta-btn:active {
-  font-size: xx-small;
-  background-color: white;
-color:white;
-border:none;
-  background-color:   rgb(255, 39, 39);
+  font-size: 15px;
+  background-color: rgb(255, 39, 39);
+  color: white;
+  border: none;
   box-shadow: 0 5px #8b8885;
   transform: translateY(4px);
 }
@@ -2226,11 +2225,10 @@ font-size: 20px;
 }
 
 .cta-btn2:active {
-  font-size: xx-small;
-  background-color: white;
-
-border:none;
-  background-color:   rgb(255, 39, 39);
+  font-size: 15px;
+  background-color: rgb(255, 39, 39);
+  color: white;
+  border: none;
   box-shadow: 0 5px #8b8885;
   transform: translateY(4px);
 }
