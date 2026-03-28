@@ -46,13 +46,39 @@
   });
 
   /**
-   * Preloader
+   * Preloader - Hide only after all resources are loaded
    */
   const preloader = document.querySelector('#preloader');
   if (preloader) {
+    // Check if all resources are loaded
     window.addEventListener('load', () => {
-      preloader.remove();
+      // Wait for images, fonts, and other resources
+      Promise.all([
+        // Wait for all images to load
+        ...Array.from(document.images).map(img => {
+          if (img.complete) return Promise.resolve();
+          return new Promise(resolve => {
+            img.addEventListener('load', resolve);
+            img.addEventListener('error', resolve); // Resolve even on error to not block
+          });
+        }),
+        // Wait for fonts to load
+        document.fonts ? document.fonts.ready : Promise.resolve()
+      ]).then(() => {
+        // Remove preloader immediately after resources load
+        preloader.remove();
+      }).catch(() => {
+        // Fallback: remove preloader even if something fails
+        preloader.remove();
+      });
     });
+    
+    // Fallback timeout: force remove after 5 seconds
+    setTimeout(() => {
+      if (preloader && preloader.parentElement) {
+        preloader.remove();
+      }
+    }, 5000);
   }
 
   /**

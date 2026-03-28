@@ -92,8 +92,12 @@
 
 <body class="index-page">
 
-  <a href="https://api.whatsapp.com/send?phone=919913650232" class="what-float" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">
-    <i class="fab fa-whatsapp i-what-float"></i>
+  <a href="https://api.whatsapp.com/send?phone=919913650232" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <a href="tel:+919913650232" class="call-float" aria-label="Call us">
+    <i class="bi bi-telephone"></i>
   </a>
 
   <header id="header" class="header d-flex align-items-center fixed-top">
@@ -124,7 +128,7 @@
       <img src="assets/img/ind_bg.jpg" class="hero-bg" alt="Indiacode Infotech - Web Development Company Background" data-aos="fade-in">
       <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
         <h2>Welcome to Indiacode Infotech</h2>
-        <p>We create <span class="typed" data-typed-items="Functional Websites, Creative Ads, Mobile Apps"></span></p>
+        <p>We create <span class="typed" data-typed-items="Professional Websites, Creative Designs, Mobile Applications, Digital Solutions, SEO Strategies, Brand Identities"></span></p>
         <div class="hero-buttons">
           <a href="#about" class="cta-btn">Get Started</a>
           <a href="#services" class="cta-btn2">Our Services</a>
@@ -134,20 +138,49 @@
 
     <section id="about" class="about section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
+        <h2>About Us</h2>
       </div>
       <div class="container">
-        <div class="row gy-4">
+        <div class="row gy-4 align-items-center">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="About Indiacode Infotech - Professional Web Design Team">
+            <img src="assets/img/about.jpg" class="img-fluid about-img" alt="About Indiacode Infotech - Professional Web Design Team">
           </div>
           <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
             <h3 class="about-title">About indiaCode infotech</h3>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Founding Year: 2023</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Mission Statement: To win customer satisfaction and trust</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Vision: My vision is that our company should provide equal service to both individuals from small traders to big industrialists</span></li>
-            </ul>
+            <p class="about-description">
+              Founded in 2023, Indiacode Infotech is a dynamic web design and development company based in Surat, Gujarat. We specialize in creating functional websites, creative digital solutions, and mobile applications that help businesses establish a strong online presence.
+            </p>
+            <div class="about-stats">
+              <div class="stat-item">
+                <i class="bi bi-calendar-check"></i>
+                <div>
+                  <h4>Founded</h4>
+                  <p>2023</p>
+                </div>
+              </div>
+              <div class="stat-item">
+                <i class="bi bi-people"></i>
+                <div>
+                  <h4>Happy Clients</h4>
+                  <p>50+</p>
+                </div>
+              </div>
+              <div class="stat-item">
+                <i class="bi bi-award"></i>
+                <div>
+                  <h4>Projects Completed</h4>
+                  <p>75+</p>
+                </div>
+              </div>
+            </div>
+            <div class="about-mission">
+              <h4><i class="bi bi-bullseye"></i> Our Mission</h4>
+              <p>To win customer satisfaction and trust by delivering high-quality, innovative digital solutions that exceed expectations.</p>
+            </div>
+            <div class="about-vision">
+              <h4><i class="bi bi-eye"></i> Our Vision</h4>
+              <p>To provide equal and exceptional service to everyone, from small traders to large industrialists, making professional web solutions accessible to all.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -155,50 +188,93 @@
 
     <section id="services" class="services section light-background">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
+        <h2>Our Services</h2>
+        <p>We offer comprehensive digital solutions to help your business grow online</p>
       </div>
       <div class="container">
         <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0"><i class="fa-solid fa-code"></i></div>
-            <div>
-              <h4 class="title"><a href="#services" class="stretched-link">Web Design & Development</a></h4>
-              <p class="description">In web design and development, we blend creativity and technology to create user-friendly and visually appealing websites. Our projects focus on responsive design, SEO best practices, and performance optimization. Our goal is always to meet client needs and create a meaningful online presence.</p>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item d-flex flex-column h-100">
+              <div class="service-icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <h4 class="service-title">Web Design & Development</h4>
+              <p class="service-description">We blend creativity and technology to create user-friendly and visually appealing websites. Our projects focus on responsive design, SEO best practices, and performance optimization to meet client needs and create a meaningful online presence.</p>
+              <div class="service-features">
+                <span class="feature-tag"><i class="bi bi-check2"></i> Responsive Design</span>
+                <span class="feature-tag"><i class="bi bi-check2"></i> SEO Optimized</span>
+                <span class="feature-tag"><i class="bi bi-check2"></i> Fast Loading</span>
+              </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon flex-shrink-0"><i class="fa-solid fa-pen-nib"></i></div>
-            <div>
-              <h4 class="title"><a href="#services" class="stretched-link">Unique Logo Design</a></h4>
-              <p class="description">In our unique logo design, we focus on the uniqueness and vision of each brand. Across various industries, we present creative and captivating designs to express your identity. We work with innovative techniques and imagination to create fresh and memorable logos. With our designs, your brand will stand out and resonate with your audience.</p>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item d-flex flex-column h-100">
+              <div class="service-icon">
+                <i class="fa-solid fa-pen-nib"></i>
+              </div>
+              <h4 class="service-title">Unique Logo Design</h4>
+              <p class="service-description">We focus on the uniqueness and vision of each brand. Across various industries, we present creative and captivating designs to express your identity. We work with innovative techniques and imagination to create fresh and memorable logos.</p>
+              <div class="service-features">
+                <span class="feature-tag"><i class="bi bi-check2"></i> Custom Design</span>
+                <span class="feature-tag"><i class="bi bi-check2"></i> Brand Identity</span>
+                <span class="feature-tag"><i class="bi bi-check2"></i> Unlimited Revisions</span>
+              </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon flex-shrink-0"><i class="fa-brands fa-facebook"></i></div>
-            <div>
-              <h4 class="title"><a href="#services" class="stretched-link">Social Media Post and Video Editing (Reel)</a></h4>
-              <p class="description">I create engaging social media posts and dynamic video reels that capture attention and connect with your audience. Together, these elements enhance your brand's presence and drive online engagement.</p>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item d-flex flex-column h-100">
+              <div class="service-icon">
+                <i class="fa-brands fa-facebook"></i>
+              </div>
+              <h4 class="service-title">Social Media Marketing</h4>
+              <p class="service-description">We create engaging social media posts and dynamic video reels that capture attention and connect with your audience. These elements enhance your brand's presence and drive online engagement across all platforms.</p>
+              <div class="service-features">
+                <span class="feature-tag"><i class="bi bi-check2"></i> Post Design</span>
+                <span class="feature-tag"><i class="bi bi-check2"></i> Video Editing</span>
+                <span class="feature-tag"><i class="bi bi-check2"></i> Reels Creation</span>
+              </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon flex-shrink-0"><i class="fa-duotone fa-solid fa-mobile-screen"></i></div>
-            <div>
-              <h4 class="title"><a href="#services" class="stretched-link">Mobile Responsive Design</a></h4>
-              <p class="description">Mobile-responsive design ensures that websites adapt seamlessly to various screen sizes, providing an optimal user experience on smartphones, tablets, and desktops by maintaining usability and aesthetics across devices.</p>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item d-flex flex-column h-100">
+              <div class="service-icon">
+                <i class="fa-solid fa-mobile-screen"></i>
+              </div>
+              <h4 class="service-title">Mobile App Development</h4>
+              <p class="service-description">We develop mobile applications that provide seamless user experience across iOS and Android platforms. Our apps are designed with modern UI/UX principles, ensuring optimal performance and user engagement.</p>
+              <div class="service-features">
+                <span class="feature-tag"><i class="bi bi-check2"></i> iOS & Android</span>
+                <span class="feature-tag"><i class="bi bi-check2"></i> Modern UI/UX</span>
+                <span class="feature-tag"><i class="bi bi-check2"></i> Cross-Platform</span>
+              </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon flex-shrink-0"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
-            <div>
-              <h4 class="title"><a href="#services" class="stretched-link">SEO Optimization</a></h4>
-              <p class="description">SEO optimization enhances a website's visibility on search engines, driving organic traffic through targeted keywords, quality content, and strategic link building, ultimately improving search rankings and online presence.</p>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item d-flex flex-column h-100">
+              <div class="service-icon">
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+              </div>
+              <h4 class="service-title">SEO Optimization</h4>
+              <p class="service-description">We enhance your website's visibility on search engines, driving organic traffic through targeted keywords, quality content, and strategic link building. Our SEO strategies improve search rankings and strengthen your online presence.</p>
+              <div class="service-features">
+                <span class="feature-tag"><i class="bi bi-check2"></i> Keyword Research</span>
+                <span class="feature-tag"><i class="bi bi-check2"></i> On-Page SEO</span>
+                <span class="feature-tag"><i class="bi bi-check2"></i> Link Building</span>
+              </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon flex-shrink-0"><i class="fa-solid fa-screwdriver-wrench"></i></div>
-            <div>
-              <h4 class="title"><a href="#services" class="stretched-link">Maintenance and Support</a></h4>
-              <p class="description">Maintenance and support ensure the ongoing functionality and efficiency of systems. It involves regular updates, troubleshooting, and addressing issues promptly to keep operations running smoothly and minimize downtime.</p>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex flex-column h-100">
+              <div class="service-icon">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+              </div>
+              <h4 class="service-title">Maintenance & Support</h4>
+              <p class="service-description">We ensure the ongoing functionality and efficiency of your digital assets. Our services include regular updates, troubleshooting, security patches, and prompt issue resolution to keep your operations running smoothly.</p>
+              <div class="service-features">
+                <span class="feature-tag"><i class="bi bi-check2"></i> 24/7 Support</span>
+                <span class="feature-tag"><i class="bi bi-check2"></i> Regular Updates</span>
+                <span class="feature-tag"><i class="bi bi-check2"></i> Security Patches</span>
+              </div>
             </div>
           </div>
         </div>
@@ -207,36 +283,49 @@
 
     <section id="features" class="features section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Why choose Us ?</h2>
+        <h2>Why Choose Us?</h2>
+        <p>We stand out with our commitment to quality, innovation, and customer satisfaction</p>
       </div>
       <div class="container">
         <div class="row gy-4">
-          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-3 col-lg-6 col-md-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="feature-box orange">
-              <i class="fa-solid fa-people-group"></i>
+              <div class="feature-icon">
+                <i class="fa-solid fa-people-group"></i>
+              </div>
               <h4>Experienced Team</h4>
-              <p>Our team earns the trust of our clients by working with our clients based on their experience</p>
+              <p>Our skilled professionals bring years of expertise in web development, design, and digital marketing to deliver exceptional results.</p>
+              <div class="feature-number">01</div>
             </div>
           </div>
-          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-xl-3 col-lg-6 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="feature-box blue">
-              <i class="fa-regular fa-clock"></i>
+              <div class="feature-icon">
+                <i class="fa-regular fa-clock"></i>
+              </div>
               <h4>Timely Delivery</h4>
-              <p>Our team completes their work at the time fixed by the client and returns their work responsibly to the client</p>
+              <p>We respect deadlines and ensure your project is completed on time without compromising on quality or attention to detail.</p>
+              <div class="feature-number">02</div>
             </div>
           </div>
-          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-xl-3 col-lg-6 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="feature-box green">
-              <i class="fa-solid fa-headset"></i>
-              <h4>Ongoing Support</h4>
-              <p>Our customers know more than us about the service provided by us so contact them only</p>
+              <div class="feature-icon">
+                <i class="fa-solid fa-headset"></i>
+              </div>
+              <h4>24/7 Support</h4>
+              <p>Our dedicated support team is always available to assist you with any questions, updates, or technical issues you may encounter.</p>
+              <div class="feature-number">03</div>
             </div>
           </div>
-          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+          <div class="col-xl-3 col-lg-6 col-md-6" data-aos="zoom-in" data-aos-delay="400">
             <div class="feature-box red">
-              <i class="fa-solid fa-hand-holding-dollar"></i>
+              <div class="feature-icon">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+              </div>
               <h4>Competitive Pricing</h4>
-              <p>We deliver to the customer by understanding the customer's requirement and understanding their task and setting the budget</p>
+              <p>We offer transparent, budget-friendly pricing tailored to your requirements, ensuring maximum value for your investment.</p>
+              <div class="feature-number">04</div>
             </div>
           </div>
         </div>
@@ -246,13 +335,25 @@
     <section id="call-to-action" class="call-to-action section dark-background">
       <img src="assets/img/bgm.png" alt="Contact Indiacode Infotech for Web Design Services">
       <div class="container">
-        <div class="row" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-xl-9 text-center text-xl-start">
-            <h3>Call To Action</h3>
-            <p>"To get complete information on creating a website and to build one within your budget, call us today!"</p>
+        <div class="row align-items-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-8 text-center text-lg-start">
+            <h3>Ready to Transform Your Digital Presence?</h3>
+            <p>Get a professional website tailored to your budget and requirements. Our team is ready to bring your vision to life with cutting-edge design and development solutions.</p>
+            <div class="cta-features">
+              <span class="cta-feature"><i class="bi bi-check-circle-fill"></i> Free Consultation</span>
+              <span class="cta-feature"><i class="bi bi-check-circle-fill"></i> Custom Solutions</span>
+              <span class="cta-feature"><i class="bi bi-check-circle-fill"></i> Budget Friendly</span>
+            </div>
           </div>
-          <div class="col-xl-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="tel:+919913650232" >Call To Action</a>
+          <div class="col-lg-4 text-center">
+            <div class="cta-buttons">
+              <a class="cta-btn-primary" href="tel:+919913650232">
+                <i class="bi bi-telephone-fill"></i> Call Now
+              </a>
+              <a class="cta-btn-secondary" href="https://api.whatsapp.com/send?phone=919913650232" target="_blank" rel="noopener">
+                <i class="fab fa-whatsapp"></i> WhatsApp Us
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -260,30 +361,97 @@
 
     <section id="portfolio" class="portfolio section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
+        <h2>Our Portfolio</h2>
+        <p>Explore our recent projects and see how we've helped businesses establish their online presence</p>
       </div>
-      <div class="container divcon">
-        <div class="img1">
-          <a href="https://evegimpex.com/" target="_blank" rel="noopener" title="E-veg Impex - Client Portfolio">
-            <img src="assets/img/eveg.png" alt="E-veg Impex Website - Web Design by Indiacode Infotech"></a>
-            <h3>E-veg Impex</h3>
-        </div>
-        <div class="img1">
-          <a href="https://truthfulexim.com/" target="_blank" rel="noopener" title="Truthful Exim - Client Portfolio">
-            <img src="assets/img/truthfull.png" alt="Truthful Exim Website - Web Development by Indiacode Infotech"></a>
-            <h3>Truthful Exim</h3>
-        </div>
-        <div class="img1">
-          <a href="https://mexum.in/" target="_blank" rel="noopener" title="Mexum Pvt Ltd - Client Portfolio">
-            <img src="assets/img/mexum.png" alt="Mexum Pvt Ltd Website - Professional Web Design"></a>
-            <h3>Mexum Pvt Ltd.</h3>
+      <div class="container">
+        <div class="row gy-4 portfolio-container">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-item">
+              <div class="portfolio-img">
+                <img src="assets/img/eveg.png" alt="E-veg Impex Website - Web Design by Indiacode Infotech" class="img-fluid">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info">
+                    <h4>E-veg Impex</h4>
+                    <p>Export Business Website</p>
+                    <div class="portfolio-links">
+                      <a href="https://evegimpex.com/" target="_blank" rel="noopener" class="portfolio-link" title="Visit Website">
+                        <i class="bi bi-box-arrow-up-right"></i> Visit Site
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-details">
+                <h3>E-veg Impex</h3>
+                <div class="portfolio-tags">
+                  <span class="tag">Web Design</span>
+                  <span class="tag">Responsive</span>
+                  <span class="tag">SEO</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img">
+                <img src="assets/img/truthfull.png" alt="Truthful Exim Website - Web Development by Indiacode Infotech" class="img-fluid">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info">
+                    <h4>Truthful Exim</h4>
+                    <p>Import-Export Business</p>
+                    <div class="portfolio-links">
+                      <a href="https://truthfulexim.com/" target="_blank" rel="noopener" class="portfolio-link" title="Visit Website">
+                        <i class="bi bi-box-arrow-up-right"></i> Visit Site
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-details">
+                <h3>Truthful Exim</h3>
+                <div class="portfolio-tags">
+                  <span class="tag">Web Development</span>
+                  <span class="tag">E-commerce</span>
+                  <span class="tag">Mobile Friendly</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="portfolio-item">
+              <div class="portfolio-img">
+                <img src="assets/img/mexum.png" alt="Mexum Pvt Ltd Website - Professional Web Design" class="img-fluid">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info">
+                    <h4>Mexum Pvt Ltd.</h4>
+                    <p>Corporate Website</p>
+                    <div class="portfolio-links">
+                      <a href="https://mexum.in/" target="_blank" rel="noopener" class="portfolio-link" title="Visit Website">
+                        <i class="bi bi-box-arrow-up-right"></i> Visit Site
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-details">
+                <h3>Mexum Pvt Ltd.</h3>
+                <div class="portfolio-tags">
+                  <span class="tag">Corporate Design</span>
+                  <span class="tag">Professional</span>
+                  <span class="tag">Modern UI</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="testimonials" class="testimonials section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Feedback</h2>
+        <h2>Client Feedback</h2>
+        <p>See what our satisfied clients have to say about our services and work quality</p>
       </div>
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="swiper init-swiper">
@@ -305,48 +473,62 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>We had prepared our website named E-veg Group under this company in which we got very good designing and this project was prepared as per our idea I am satisfied with this work.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <a href="https://evegimpex.com/" target="_blank">
-                      <h3>Satish Hirpara</h3>
-                      <h4>founder of E-vegimpex</h4></a>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
+                <div class="testimonial-header">
+                  <div class="testimonial-avatar">
+                    <img src="assets/img/indiacode-logo.jpg" alt="Satish Hirpara - E-vegimpex">
+                  </div>
+                  <div class="testimonial-author">
+                    <h3><a href="https://evegimpex.com/" target="_blank" rel="noopener">Satish Hirpara</a></h3>
+                    <h4>Founder of E-vegimpex</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
                     </div>
+                  </div>
+                </div>
+                <div class="testimonial-content">
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>We had prepared our website named E-veg Group under this company in which we got very good designing and this project was prepared as per our idea. I am satisfied with this work.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                  <div class="testimonial-rating">
+                    <span class="rating-label">Project:</span>
+                    <span>E-veg Impex Website</span>
                   </div>
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Working with them has been very satisfying. They delivered an excellent website on time and within our budget.
-
-                          Their service and professionalism are commendable. Throughout the project, they guided me and understood my needs very well.
-                          
-                          I will definitely consider them again in the future and recommend their work to others.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <a href="https://truthfulexim.com/" target="_blank">
-                      <h3>Pratik Sagar </h3>
-                      <h4>Founder of Truthful Exim</h4></a>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
+                <div class="testimonial-header">
+                  <div class="testimonial-avatar">
+                    <img src="assets/img/indiacode-logo.jpg" alt="Pratik Sagar - Truthful Exim">
+                  </div>
+                  <div class="testimonial-author">
+                    <h3><a href="https://truthfulexim.com/" target="_blank" rel="noopener">Pratik Sagar</a></h3>
+                    <h4>Founder of Truthful Exim</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
                     </div>
+                  </div>
+                </div>
+                <div class="testimonial-content">
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Working with them has been very satisfying. They delivered an excellent website on time and within our budget. Their service and professionalism are commendable. Throughout the project, they guided me and understood my needs very well. I will definitely consider them again in the future and recommend their work to others.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                  <div class="testimonial-rating">
+                    <span class="rating-label">Project:</span>
+                    <span>Truthful Exim Website</span>
                   </div>
                 </div>
               </div>
@@ -359,11 +541,12 @@
 
     <section id="team" class="team section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Team</h2>
+        <h2>Our Team</h2>
+        <p>Meet the talented professionals behind Indiacode Infotech</p>
       </div>
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
               <div class="member-img">
                 <img src="assets/img/indiacode-logo.jpg" class="img-fluid" alt="Kuldeep P - Web Developer at Indiacode Infotech">
@@ -375,11 +558,16 @@
               </div>
               <div class="member-info">
                 <h4>Kuldeep P</h4>
-                <span>Developer</span>
+                <span class="member-role">Lead Developer</span>
+                <div class="member-skills">
+                  <span class="skill-tag">Web Development</span>
+                  <span class="skill-tag">UI/UX Design</span>
+                  <span class="skill-tag">SEO</span>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
                 <img src="assets/img/indiacode-logo.jpg" class="img-fluid" alt="Viraj P - Customer Support at Indiacode Infotech">
@@ -391,22 +579,79 @@
               </div>
               <div class="member-info">
                 <h4>Viraj P</h4>
-                <span>Customer supporter</span>
+                <span class="member-role">Customer Support</span>
+                <div class="member-skills">
+                  <span class="skill-tag">Client Relations</span>
+                  <span class="skill-tag">Project Management</span>
+                  <span class="skill-tag">Support</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section >
+    </section>
 
     <section id="contact" class="contact section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact Us</h2>
+        <p>Get in touch with us for your next project or any inquiries</p>
       </div>
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-4">
-          <div class="col-lg-12">
-            <p class="text-center">For inquiries and project discussions, please reach out to us through the contact information provided in the footer section below.</p>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <i class="bi bi-geo-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <p>Surat, Gujarat<br>India</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <i class="bi bi-telephone"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Call Us</h4>
+                <p><a href="tel:+919913650232">+91 9913650232</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email Us</h4>
+                <p><a href="mailto:indiacodeinfotech@gmail.com">indiacodeinfotech@gmail.com</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="500">
+            <div class="contact-cta">
+              <div class="contact-cta-content">
+                <h3>Ready to Start Your Project?</h3>
+                <p>Let's discuss your requirements and create something amazing together</p>
+              </div>
+              <div class="contact-cta-buttons">
+                <a href="tel:+919913650232" class="contact-btn-phone">
+                  <i class="bi bi-telephone-fill"></i> Call Now
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=919913650232" target="_blank" rel="noopener" class="contact-btn-whatsapp">
+                  <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="mailto:indiacodeinfotech@gmail.com" class="contact-btn-email">
+                  <i class="bi bi-envelope-fill"></i> Email
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -415,41 +660,82 @@
 
   <footer id="footer" class="footer dark-background">
     <div class="container">
-      <div class="row gy-3">
-        <div class="col-lg-3 col-md-6 d-flex">
-          <i class="bi bi-geo-alt icon"></i>
-          <div class="address">
-            <h4>Address :</h4>
-            <p>Surat, Gujarat</p>
-            <p>India</p>
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-about">
+            <a href="#home" class="footer-logo d-flex align-items-center mb-3">
+              <img src="assets/img/indiacode-logo.jpg" alt="Indiacode Infotech Logo">
+              <div class="footer-logo-text">
+                <h3>indiacode</h3>
+                <h5>infotech</h5>
+              </div>
+            </a>
+            <p class="footer-description">Professional web design, development, and digital marketing services in Surat, Gujarat. Creating functional websites and innovative solutions since 2023.</p>
+            <div class="footer-social">
+              <h4>Follow Us</h4>
+              <div class="social-links">
+                <a href="https://www.youtube.com/@IndiacodeInfotech" target="_blank" rel="noopener" aria-label="YouTube Channel"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61554691012761&mibextid=ZbWKwL" target="_blank" rel="noopener" aria-label="Facebook Page"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/indiacodeinfotech/" target="_blank" rel="noopener" aria-label="Instagram Profile"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 d-flex">
-          <i class="bi bi-telephone icon"></i>
-          <div>
-            <h4>Contact :</h4>
-            <p>
-              <strong>Phone :</strong> <a href="tel:+919913650232">+91 9913650232</a><br>
-              <strong>Email :</strong> <a href="mailto:indiacodeinfotech@gmail.com">indiacodeinfotech@gmail.com</a>
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 d-flex">
-          <i class="bi bi-clock icon"></i>
-          <div>
-            <h4>Working Hours :</h4>
-            <p>
-              <strong>Monday-Saturday</strong><br>
-              <strong>Sunday</strong> : <span>Closed</span>
-            </p>
+        <div class="col-lg-2 col-md-6">
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home"><i class="bi bi-chevron-right"></i> Home</a></li>
+              <li><a href="#about"><i class="bi bi-chevron-right"></i> About</a></li>
+              <li><a href="#services"><i class="bi bi-chevron-right"></i> Services</a></li>
+              <li><a href="#portfolio"><i class="bi bi-chevron-right"></i> Portfolio</a></li>
+              <li><a href="#team"><i class="bi bi-chevron-right"></i> Team</a></li>
+            </ul>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h4>Follow Us :</h4>
-          <div class="social-links d-flex">
-            <a target="_blank" href="https://www.youtube.com/@IndiacodeInfotech" class="youtube" rel="noopener" aria-label="YouTube Channel"><i class="fa-brands fa-youtube"></i></a>
-            <a target="_blank" href="https://www.facebook.com/profile.php?id=61554691012761&mibextid=ZbWKwL" class="facebook" rel="noopener" aria-label="Facebook Page"><i class="bi bi-facebook"></i></a>
-            <a target="_blank" href="https://www.instagram.com/indiacodeinfotech/" class="instagram" rel="noopener" aria-label="Instagram Profile"><i class="bi bi-instagram"></i></a>
+          <div class="footer-contact">
+            <h4>Contact Info</h4>
+            <div class="footer-contact-item">
+              <i class="bi bi-geo-alt"></i>
+              <div>
+                <strong>Address:</strong>
+                <p>Surat, Gujarat, India</p>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <i class="bi bi-telephone"></i>
+              <div>
+                <strong>Phone:</strong>
+                <p><a href="tel:+919913650232">+91 9913650232</a></p>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <i class="bi bi-envelope"></i>
+              <div>
+                <strong>Email:</strong>
+                <p><a href="mailto:indiacodeinfotech@gmail.com">indiacodeinfotech@gmail.com</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-hours">
+            <h4>Working Hours</h4>
+            <div class="hours-item">
+              <i class="bi bi-clock"></i>
+              <div>
+                <strong>Monday - Saturday</strong>
+                <p>9:00 AM - 6:00 PM</p>
+              </div>
+            </div>
+            <div class="hours-item">
+              <i class="bi bi-clock"></i>
+              <div>
+                <strong>Sunday</strong>
+                <p>Closed</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -462,8 +748,17 @@
     </div>
   </footer>
 
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <a href="https://api.whatsapp.com/send?phone=919913650232" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <a href="tel:+919913650232" class="call-float" aria-label="Call us">
+    <i class="bi bi-telephone"></i>
+  </a>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Back to top">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
 
   <div id="preloader"></div>
 
